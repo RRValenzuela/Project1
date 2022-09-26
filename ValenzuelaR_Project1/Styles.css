@@ -1,0 +1,186 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1644267793056-a66d72e58f59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2118&q=80);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+    width:80%;
+    margin:0 auto;
+}
+.navbar {
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+}
+
+.primary-icon {
+    height: 50px;
+
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.wallpaper .textwrapper {
+  width: 100%;
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.6%;
+  background: #fff;
+  line-height: 1.4;
+  font-family: sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+.Projects {
+display: flex;
+flex-direction: column;
+margin: 1rem auto;
+box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+margin-bottom: 1.6%;
+background: #fff;
+line-height: 1.4;
+font-family: sans-serif;
+border-radius: 5px;
+overflow: hidden;
+z-index: 0;
+}
+.Projects a {
+color: inherit;
+}
+
+.Projects:hover .photo {
+transform: scale(1.3) rotate(3deg);
+}
+
+.Projects .meta {
+position: relative;
+z-index: 0;
+height: 200px;
+}
+
+.Projects .photo {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-size: cover;
+background-position: center;
+transition: transform 0.2s;
+}
+
+.Projects .details {
+position: absolute;
+top: 0;
+bottom: 0;
+left: -100%;
+margin: auto;
+transition: left 0.2s;
+background: rgba(0, 0, 0, 0.6);
+color: #fff;
+padding: 10px;
+width: 100%;
+font-size: 0.9rem;
+}
+
+.Projects .details a {
+text-decoration: dotted underline;
+}
+
+.Projects .description {
+padding: 1rem;
+background: #fff;
+position: relative;
+z-index: 1;
+}
+
+.Projects .description h1, .blog-card .description h2 {
+font-family: Poppins, sans-serif;
+}
+
+.Projects .description h1 {
+line-height: 1;
+margin: 0;
+font-size: 1.3rem;
+}
+
+.Projects .description h2 {
+font-size: 1rem;
+font-weight: 300;
+text-transform: uppercase;
+color: #a2a2a2;
+margin-top: 5px;
+}
+
+.Projects .description .View-Project {
+text-align: right;
+}
+
+.Projects .description .View-Project a {
+color: Pink;
+display: inline-block;
+position: relative;
+text-decoration: none;
+}
+
+.Projects p {
+position: relative;
+margin: 1rem 0 0;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  height: 40px;
+  padding: 10px;
+}
+/*
+@media (min-width: 640px) {
+.Projects {
+ flex-direction: row;
+ max-width: 700px;
+}
+.Projects .meta {
+ flex-basis: 40%;
+ height: auto;
+}
+.Projects .description {
+ flex-basis: 60%;
+}
+.Projects.alt {
+ flex-direction: row-reverse;
+}
+}
+*/
